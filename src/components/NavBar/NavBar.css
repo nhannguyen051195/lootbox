@@ -1,0 +1,28 @@
+.scrollmenu {
+    position: fixed;
+    width: 100%;
+    background-color:  rgb(235, 17, 162);
+    overflow: auto;
+    white-space: nowrap;
+    top: 0;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 16px 10px;
+    height:  100%;
+    border-bottom: 4px solid transparent;
+}
+
+.scrollmenu a:hover {
+    background-color: rgb(231, 35, 215);
+}
+
+.scrollmenu .active {
+    background-color: rgb(206, 20, 82);
+    color: white;
+    border-bottom: 4px solid #40A4C8 ;
+    
+}
