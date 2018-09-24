@@ -11,7 +11,6 @@ class NavBar extends Component {
                     <NavLink activeClassName={classes.active} to='/loot-box'><i className="fas fa-gift"></i> Lootboxes</NavLink>
                     <NavLink activeClassName={classes.active} to='/store'>  <i className="fas fa-store"></i> Store </NavLink>
                     <NavLink activeClassName={classes.active} to='/profile'> <i className="fas fa-user"></i> Profile</NavLink>
-
             </div>
         );
     }

@@ -9,6 +9,7 @@ import Modal1 from '../UI/Modal/Modal1';
 import Modal2 from '../UI/Modal/Modal2';
 import Modal3 from '../UI/Modal/Modal3';
 import Modal4 from '../UI/Modal/Modal4';
+import coupon from '../../assets/logo/euro-money.png'
 
 
 
@@ -56,7 +57,6 @@ class Coupons extends Component {
         return (
             <div>
                 <Navbar />
-                <br></br>
 
 
                 <Modal1 showCoupon1={this.state.showCoupon1} >
@@ -69,16 +69,21 @@ class Coupons extends Component {
                 </Modal1>
 
                 <div className={classes.polaroid} onClick={this.showCoupon1} >
-                    <img src={coupon1} alt="5 Terre" />
+                <img src={coupon} alt="5 Terre" />
+
                     <div className={classes.container}>
                         <p>Up to 40% off during September</p>
                     </div>
                 </div>
+                
+
+                
+
+               
 
 
 
-
-                <Modal2 showCoupon2={this.state.showCoupon2} >
+                 <Modal2 showCoupon2={this.state.showCoupon2} >
 
                     <div className={classes.IMG}>
                         <img src={coupon2} alt="5 Terre" />
@@ -89,7 +94,8 @@ class Coupons extends Component {
 
 
                 <div className={classes.polaroid} onClick={this.showCoupon2}>
-                    <img src={coupon2} alt="Norther Lights" />
+                <img src={coupon} alt="5 Terre" />
+
                     <div className={classes.container}>
                         <p>Get 30% off your purchase</p>
                     </div>
@@ -109,7 +115,8 @@ class Coupons extends Component {
 
 
                 <div className={classes.polaroid} onClick={this.showCoupon3}>
-                    <img src={coupon3} alt="Norther Lights" />
+                <img src={coupon} alt="5 Terre" />
+
                     <div className={classes.container}>
                         <p>15% of All order</p>
                     </div>
@@ -124,11 +131,12 @@ class Coupons extends Component {
                     </div>
                 </Modal4>
                 <div className={classes.polaroid} onClick={this.showCoupon4}>
-                    <img src={coupon4} alt="Norther Lights" />
+                <img src={coupon} alt="5 Terre" />
+
                     <div className={classes.container}>
                         <p>15% of All order</p>
                     </div>
-                </div>
+                </div> 
             </div>
         );
     }

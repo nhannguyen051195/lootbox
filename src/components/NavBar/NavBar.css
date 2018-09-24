@@ -1,5 +1,4 @@
 .scrollmenu {
-    position: fixed;
     width: 100%;
     background-color:  rgb(235, 17, 162);
     overflow: auto;
@@ -14,7 +13,7 @@
     padding: 16px 10px;
     height:  100%;
     border-bottom: 4px solid transparent;
-}
+} 
 
 .scrollmenu a:hover {
     background-color: rgb(231, 35, 215);
@@ -25,4 +24,12 @@
     color: white;
     border-bottom: 4px solid #40A4C8 ;
     
+}
+@media only screen and (max-width: 700px){
+  
+.scrollmenu{
+    width: 100%
+}
+
+   
 }
